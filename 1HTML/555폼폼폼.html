@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼폼연습</title>
+    <style>
+        legend{
+            font-weight: 100;
+        }
+        fieldset{
+            border: 5px dotted red;
+        }
+    </style>
+</head>
+<body>
+    <form action="yammy.html" method="get">    
+        아이딩 : <input type="text" name="userID"
+        value="이름이뭐에요">
+        비벙 : <input type="text" name="userPW" 
+        value="비번이뭐에요">
+        <button>꾹꾹</button>
+    </form>
+
+<hr>
+    <form action="yammy.html">
+        <fieldset>
+            <legend>단지우유 8set</legend>
+            <label for="userID">제조일자</label>
+            <input type="text" id="userID" name="제종">
+                <br>
+            <label for="userPW">유통기한</label>
+            <input type="password" name="유통이">
+        </fieldset>
+</form>
+
+<h1>오늘 날씨가 왜 이리 더운지</h1>
+
+<form>
+  <fieldset>
+    <legend>비가 왔으면</legend>
+    <ul>
+        <li>
+            아이디:
+            <input type="text" name="userID"
+            value="id1234"
+            required placeholder="더운 당신의 이름"
+            size="15"
+            maxlength="10">        
+        </li>
+        <li>
+            비번:
+            <input type="text" name="userPW"
+            value="id1234"
+            required placeholder="오싹한 당신의 비번"
+            size="20"
+            maxlength="15">
+        </li>
+    </ul>
+  </fieldset>  
+<button>빗방울</button>
+
+</form>
+
+<h1>레드향 주문하기</h1>
+
+<form action="yammy.html" method="get">
+    <fieldset>
+        <legend>상품 선택</legend>
+
+    </fieldset>
+<br>
+    <fieldset>
+        <legend>배송 정보</legend>
+
+    </fieldset>
+<button>submit</button>
+
+
+</form>
+
+</body>
+</html>
